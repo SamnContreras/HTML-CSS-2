@@ -1,0 +1,66 @@
+.container{
+    height: 130px;
+    border-style: solid;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+    margin: 10px;
+  }
+
+
+.purple{
+    
+    background-color: purple;
+    height: 100px;
+    width: 40px;
+    
+}
+
+.green{
+    background-color: green;
+    width: 300px;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 15px;
+}
+
+.blue{
+    background-color: blue;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    margin: 0px 15px;
+}
+
+.container-two{
+    border-style: dotted;
+    height: 130px;
+    
+}
+
+.tan{
+    background-color: tan;
+    width: 300px;
+    height: 100px;
+    width: auto;
+    margin: 15px;
+    box-shadow:5px 5px 5px black;
+}
+
+.container-three{
+    display: flex;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px  lightgray;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: blue;
+    letter-spacing: 5px;
+  }

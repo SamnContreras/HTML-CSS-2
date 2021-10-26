@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: gray;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.items{
+    background-color: lightgray;
+    width: 120px;
+    height: 80vh;
+    margin: 0px;
+}
+
+footer{
+    background-color: black;
+    height: 10vh;
+    width: 87%;
+    margin: 0px auto;
+}
